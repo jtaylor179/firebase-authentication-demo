@@ -55,9 +55,6 @@ class App extends Component {
   login() {
     //console.log("sign-in");
 
-    //This code will setup the Google login page
-    const provider = new firebase.auth.GoogleAuthProvider();
-
     //reloads the page, and tries to sign in
     //when you reload the page, componentDidMount() will execute
     // firebase.auth().signInWithRedirect(provider);
