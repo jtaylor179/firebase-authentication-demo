@@ -58,6 +58,7 @@ class App extends Component {
     //reloads the page, and tries to sign in
     //when you reload the page, componentDidMount() will execute
     // firebase.auth().signInWithRedirect(provider);
+    debugger;
     var provider = new firebase.auth.GoogleAuthProvider();
     firebase.auth().signInWithPopup(provider);
   }
