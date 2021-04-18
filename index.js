@@ -32,6 +32,7 @@ class App extends Component {
       this.setState({ loading: false });
     });
 
+  /*
     firebase.auth().getRedirectResult().then( function (result){
       // This gives you a Google Access Token. You can use it to access the Google API.
       const token = result.credential.accessToken;
@@ -53,6 +54,7 @@ class App extends Component {
         
     });
   }
+  */
 
   login(){
     //console.log("sign-in");
